@@ -103,7 +103,7 @@ p {
 .header {
     display: block;
     height: 70vh !important;
-    background: url(../again/img/header.jpg) center;
+    background: url(../img/header.jpg) center;
     background-size: cover;
 }
 
