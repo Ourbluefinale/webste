@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <title>Contacto</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="../again/css/cont.css">
+    <link rel="icon" type="image/svg+xml" href="../again/img/favicon.svg">
+    <link rel="icon" type="image/png" href="../again/img/favicon.png">
+</head>
+
+<body>
+    <div class="head">
+        <div class="logo">
+            <a href="../again/index.html">
+                <img id="syc" src="../again/img/icon.svg" alt="" style="height: 25px;
+                        width: 25px;"> Our blue
+            </a>
+        </div>
+
+        <nav class="navbar">
+            <ul class="menu-horizontal">
+                <li>
+                    <li><a href="#">Menú <img id="syc" src="../again/img/Iconham.svg" alt="" style="height: 20px;
+                        width: 20px;"></a>
+                    <ul class="vertical">
+                        <li><a href="../again/Nosotros.html">Nosotros</a></li>
+                        <li><a href="../again/Portafolio.html">Portafolio</a></li>
+                        <li><a href="../again/Contacto.html">Contacto</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+
+    <header class="content header">
+        <h2 class="title" style="background:rgba(0, 1, 2, .3); width: 700px; border-radius: 1rem ">¡Contáctanos!</h2>
+        <p style="background:rgba(0, 1, 2, .7); border-radius: 1rem; width: 600px">
+            ¡Deja tus datos para que nosotros podamos llegar a ti!
+        </p>
+    </header>
+
+    <section class="content about">
+
+        <div class="formulario">
+            <script src="https://form.jotform.com/static/feedback2.js"></script> <script> new JotformFeedback({ type: false, width: 700, height: 500, fontColor: "#FFFFFF", background: "#F59202", isCardForm: false, formId: "240371728001042" , buttonText: "Opinión", buttonSide: "left", buttonAlign: "center", base: "https://form.jotform.com/", }); </script> <script type="text/javascript"> var ifr = document.getElementById("lightbox-240371728001042"); if (ifr) { var src = ifr.src; var iframeParams = []; if (window.location.href && window.location.href.indexOf("?") > -1) { iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&')); } if (src && src.indexOf("?") > -1) { iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&")); src = src.substr(0, src.indexOf("?")) } iframeParams.push("isIframeEmbed=1"); ifr.src = src + "?" + iframeParams.join('&'); } window.handleIFrameMessage = function(e) { if (typeof e.data === 'object') { return; } var args = e.data.split(":"); if (args.length > 2) { iframe = document.getElementById("lightbox-" + args[(args.length - 1)]); } else { iframe = document.getElementById("lightbox"); } if (!iframe) { return; } switch (args[0]) { case "scrollIntoView": iframe.scrollIntoView(); break; case "setHeight": iframe.style.height = args[1] + "px"; if (!isNaN(args[1]) && parseInt(iframe.style.minHeight) > parseInt(args[1])) { iframe.style.minHeight = args[1] + "px"; } break; case "collapseErrorPage": if (iframe.clientHeight > window.innerHeight) { iframe.style.height = window.innerHeight + "px"; } break; case "reloadPage": window.location.reload(); break; case "loadScript": if( !window.isPermitted(e.origin, ['jotform.com', 'jotform.pro']) ) { break; } var src = args[1]; if (args.length > 3) { src = args[1] + ':' + args[2]; } var script = document.createElement('script'); script.src = src; script.type = 'text/javascript'; document.body.appendChild(script); break; case "exitFullscreen": if (window.document.exitFullscreen) window.document.exitFullscreen(); else if (window.document.mozCancelFullScreen) window.document.mozCancelFullScreen(); else if (window.document.mozCancelFullscreen) window.document.mozCancelFullScreen(); else if (window.document.webkitExitFullscreen) window.document.webkitExitFullscreen(); else if (window.document.msExitFullscreen) window.document.msExitFullscreen(); break; } var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false; if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) { var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)}; iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*"); } }; window.isPermitted = function(originUrl, whitelisted_domains) { var url = document.createElement('a'); url.href = originUrl; var hostname = url.hostname; var result = false; if( typeof hostname !== 'undefined' ) { whitelisted_domains.forEach(function(element) { if( hostname.slice((-1 * element.length - 1)) === '.'.concat(element) || hostname === element ) { result = true; } }); return result; } }; if (window.addEventListener) { window.addEventListener("message", handleIFrameMessage, false); } else if (window.attachEvent) { window.attachEvent("onmessage", handleIFrameMessage); } </script>
+        </div>
+
+        <div class="image col-6">
+            <a href="https://pin.it/5iayP5720">
+                <img src="../again/img/Inspo.jpg" alt="imagen">
+            </a>
+        </div>
+        <div class="columnas">
+            <div class="audio col-3">
+                <audio src="../again/audio/audio.mp3" controls autoplay></audio>
+            </div>
+            <div class="map col-3">
+                <div class="mapa">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3760.8666056654497!2d-99.18602848346215!3d19.5043740564135!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x85d1f8740b524a27%3A0xfb02529ee38b8bf6!2sUniversidad%20Aut%C3%B3noma%20Metropolitana%20Azcapotzalco!5e0!3m2!1ses-419!2smx!4v1707312158560!5m2!1ses-419!2smx"
+                        width="500" height="250" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="extra">
+         <a href="https://youtu.be/dQw4w9WgXcQ?si=7XmxTIhzvoy4tN77" class="link">Holi</a>
+       </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+    <script src="../again/js/script.js"></script>
+</body>
+
+</html>
